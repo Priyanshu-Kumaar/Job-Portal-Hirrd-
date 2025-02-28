@@ -157,7 +157,7 @@ const ApplyJobDrawer = ({ user, job, applied = false, fetchJob }) => {
           {loadingApply && <BarLoader width={"100%"} color="#36d7b7" />}
 
           <Button type="submit" variant="blue" size="lg">
-            Apply
+             Apply
           </Button>
         </form>
         <DrawerFooter>
