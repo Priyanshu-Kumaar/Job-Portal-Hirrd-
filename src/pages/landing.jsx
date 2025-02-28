@@ -92,6 +92,7 @@ const LandingPage = () => {
       </section>
       
       <Accordion type="multiple" className="w-full">
+        
         {faqs.map((faq, index) => (
           <AccordionItem key={index} value={`item-${index + 1}`}>
             <AccordionTrigger className="text-base sm:text-lg">
