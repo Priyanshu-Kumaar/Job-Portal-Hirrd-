@@ -124,6 +124,7 @@ const JobListing = () => {
       </div>
 
       {loadingJobs && <BarLoader className="mt-4 w-full" color="#36d7b7" />}
+      
 
       {loadingJobs === false && (
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
