@@ -26,7 +26,6 @@ const useFetch = (cb, options = {}) => {
         throw new Error("Supabase token is undefined");
       }
       const response = await cb(supabaseAccessToken,options,...args);
-      console.log(args);
       console.log(response);
       setData(response);
       setError(null);
