@@ -150,6 +150,7 @@ const PostJobs = () => {
             )}
           />
 
+
          <AddCompanyDrawer fetchCompanies={fnCompanies}/>
         </div>
         {errors.location && (
