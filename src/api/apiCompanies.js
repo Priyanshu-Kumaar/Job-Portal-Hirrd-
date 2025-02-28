@@ -10,7 +10,7 @@ export async function getCompanies(token) {
     return null;
   }
 
-  return data;
+  return  data;
 }
 
 // Add Company
