@@ -6,7 +6,7 @@ import JobCard from "./job-card";
 import { useEffect } from "react";
 
 const CreatedJobs = () => {
-  const { user } = useUser();
+  const  {user} = useUser();
 
   const {
     loading: loadingCreatedJobs,
