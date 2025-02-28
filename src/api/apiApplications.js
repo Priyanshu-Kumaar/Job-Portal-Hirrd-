@@ -41,7 +41,7 @@ export async function updateApplicationStatus(token,{job_id},status){
 
   if(error || data.length ===0){
       console.error("Error Updating Applications:" ,error);
-      return null;
+      return null ;
   }
 return data ;
 }
