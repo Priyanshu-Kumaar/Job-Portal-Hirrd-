@@ -18,7 +18,9 @@ const MyJobs = () => {
   return (
     <div className="container mx-auto px-4 py-6 sm:py-8">
       <h1 className="gradient-title font-extrabold text-4xl sm:text-6xl text-center pb-6">
-        {user?.unsafeMetadata?.role === "candidate" ? "My Applications" : "My Jobs"}
+        {user?.unsafeMetadata?.role === "candidate"
+          ? "My Applications"
+          : "My Jobs"}
       </h1>
       <div className="flex flex-col gap-6">
         {user?.unsafeMetadata?.role === "candidate" ? (
