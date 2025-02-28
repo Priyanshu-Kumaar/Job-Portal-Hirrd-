@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* Copyright*/ }
       <div className="text-center mt-8 border-t border-gray-700 pt-4">
         <p className="text-gray-400">&copy; 2025 Job Portal. All Rights Reserved.</p>
       </div>
