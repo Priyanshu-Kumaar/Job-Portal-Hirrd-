@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Onboarding = () => {
   const { user, isLoaded } = useUser();
   console.log(user);
+  
   const navigate = useNavigate();
   
   const handleRoleSelection = async (role) => {
