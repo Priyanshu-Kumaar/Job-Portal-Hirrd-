@@ -54,7 +54,7 @@ const Header = () => {
           </SignedOut>
 
           <SignedIn>
-            {/* Recruiter-specific button */}
+            {/* Recruiter-specific-button */}
             {user?.unsafeMetadata?.role === "recruiter" && (
               <Link to="/post-jobs">
                 <Button
