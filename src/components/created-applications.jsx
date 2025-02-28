@@ -6,7 +6,7 @@ import useFetch from "@/hooks/use-fetch";
 import { BarLoader } from "react-spinners";
 
 const CreatedApplications = () => {
-  const { user } = useUser();
+  const {user} = useUser();
 
   const {
     loading: loadingApplications,
