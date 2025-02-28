@@ -91,7 +91,7 @@ const AddCompanyDrawer = ({ fetchCompanies }) => {
             variant="destructive"
             className="w-40"
           >
-            Add
+          Add
           </Button>
         </form>
         <DrawerFooter>
