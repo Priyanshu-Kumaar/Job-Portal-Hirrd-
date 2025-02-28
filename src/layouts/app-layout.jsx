@@ -1,6 +1,5 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import { useUser } from "@clerk/clerk-react";
 import { Outlet } from "react-router-dom";
 
 const AppLayout = () => {
