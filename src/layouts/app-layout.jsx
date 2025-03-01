@@ -4,13 +4,10 @@ import { Outlet } from "react-router-dom";
 
 const AppLayout = () => {
   return (
-    <div>
-      <div className="grid-background "></div>
-      <main className='min-w-screen container pl-6 '>
+    <div className="md:pl-10 ">
+      <div className="grid-background  "></div>
         <Header />
         <Outlet />
-      </main>
-      <Footer />
     </div>
   );
 };
