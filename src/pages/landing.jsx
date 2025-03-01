@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <main className="flex flex-col gap-6 sm:gap-10 lg:gap-20 py-6 sm:py-10 lg:py-20 px-4 sm:px-8 lg:px-16">
+    <main className="flex flex-col  justify-center items-center min-h-screen  gap-6 sm:gap-10 lg:gap-20 py-6 sm:py-10 lg:py-20 px-4 sm:px-8 lg:px-16">
       <section className="text-center">
         <h1 className="flex flex-col items-center justify-center gradient-title font-extrabold text-3xl sm:text-5xl lg:text-7xl tracking-tighter py-4">
           Find Your Dream Job
@@ -35,7 +35,7 @@ const LandingPage = () => {
           Explore thousands of job listings or find the perfect candidate
         </p>
       </section>
-      
+
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center ">
         <Link to="/jobs">
           <Button variant="blue" size="lg" className="w-40 sm:w-48 lg:w-56">
@@ -43,12 +43,16 @@ const LandingPage = () => {
           </Button>
         </Link>
         <Link to="/post-jobs">
-          <Button variant="destructive" size="lg" className="w-40 sm:w-48 lg:w-56">
+          <Button
+            variant="destructive"
+            size="lg"
+            className="w-40 sm:w-48 lg:w-56"
+          >
             Post a Job
           </Button>
         </Link>
       </div>
-      
+
       <Carousel
         plugins={[
           Autoplay({
@@ -59,7 +63,10 @@ const LandingPage = () => {
       >
         <CarouselContent className="flex gap-4 sm:gap-10 items-center justify-center">
           {companies.map(({ name, id, path }) => (
-            <CarouselItem key={id} className="basis-1/2 sm:basis-1/4 lg:basis-1/6">
+            <CarouselItem
+              key={id}
+              className="basis-1/2 sm:basis-1/4 lg:basis-1/6"
+            >
               <img
                 src={path}
                 alt={name}
@@ -69,13 +76,18 @@ const LandingPage = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      
-      <img src="/banner.jpeg" className="w-full object-cover rounded-lg shadow-md" />
-      
+
+      <img
+        src="/banner.jpeg"
+        className="w-full object-cover rounded-lg shadow-md"
+      />
+
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
         <Card className="shadow-lg">
           <CardHeader>
-            <CardTitle className="font-bold text-lg sm:text-xl">For Job Seekers</CardTitle>
+            <CardTitle className="font-bold text-lg sm:text-xl">
+              For Job Seekers
+            </CardTitle>
           </CardHeader>
           <CardContent>
             Search and apply for jobs, track applications, and more.
@@ -83,16 +95,17 @@ const LandingPage = () => {
         </Card>
         <Card className="shadow-lg">
           <CardHeader>
-            <CardTitle className="font-bold text-lg sm:text-xl">For Employers</CardTitle>
+            <CardTitle className="font-bold text-lg sm:text-xl">
+              For Employers
+            </CardTitle>
           </CardHeader>
           <CardContent>
             Post jobs, manage applications, and find the best candidates.
           </CardContent>
         </Card>
       </section>
-      
+
       <Accordion type="multiple" className="w-full">
-        
         {faqs.map((faq, index) => (
           <AccordionItem key={index} value={`item-${index + 1}`}>
             <AccordionTrigger className="text-base sm:text-lg">
