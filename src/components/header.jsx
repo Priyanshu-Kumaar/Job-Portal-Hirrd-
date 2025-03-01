@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <>
       {/* Header Container */}
-      <div className="px-4 sm:px-6 lg:px-12 flex flex-wrap justify-between items-center py-4 shadow-md w-full">
+      <div className=" mx-4 sm:px-6 lg:px-12 flex flex-wrap justify-between items-center py-4 shadow-md w-full">
         {/* Logo */}
         <Link to="/" className="flex-shrink-0">
           <img
@@ -42,7 +42,7 @@ const Header = () => {
         </Link>
 
         {/* Navigation & Buttons */}
-        <div className="flex items-center gap-3 sm:gap-5 md:gap-8 flex-wrap">
+        <div className="flex items-center pr-8 gap-3 sm:gap-5 md:gap-8 flex-wrap">
           <SignedOut>
             <Button
               variant="outline"
