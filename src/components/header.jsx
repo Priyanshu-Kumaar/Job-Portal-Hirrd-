@@ -96,7 +96,7 @@ const Header = () => {
       {/* Sign-In Modal */}
       {showSignIn && (
         <div
-          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 p-4"
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-10 mr-4 ml-2"
           onClick={handleOverlayClick}
         >
           <SignIn
