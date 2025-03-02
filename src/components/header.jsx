@@ -31,12 +31,12 @@ const Header = () => {
   return (
     <>
       {/* Header Container */}
-      <div className=" mx-4 sm:px-6 lg:px-12 flex flex-wrap justify-between items-center py-4 shadow-md w-full">
+      <div className=" mx-4 sm:px-6 lg:px-12 flex flex-wrap justify-between items-center py-4 shadow-md w-full md:min-w-screen">
         {/* Logo */}
         <Link to="/" className="flex-shrink-0">
           <img
             src="/logo.png"
-            className="h-10 sm:h-12 md:h-14 lg:h-16"
+            className="h-10 sm:h-12 md:h-14 lg:h-16 ml-0"
             alt="Hirrd Logo"
           />
         </Link>
