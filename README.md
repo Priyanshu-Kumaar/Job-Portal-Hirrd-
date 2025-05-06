@@ -5,7 +5,8 @@ Hirrd is a full-featured job portal website designed to streamline the hiring pr
 (https://jobportal-navy.vercel.app/)
 
 # 🔍 Features
-👨‍💼 Recruiter Side
+# 👨‍💼 Recruiter Side
+
 Post job listings with title, description, and requirements
 
 Update job status between Open and Closed
