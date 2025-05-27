@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import React from "react";
 import { Boxes, BriefcaseBusiness, Download, School } from "lucide-react";
 import {
   Card,
@@ -38,7 +38,7 @@ const ApplicationCard = ({ application, isCandidate = false }) => {
   };
 
   return (
-    <Card>
+    <Card className="mb-4">
       {loadingHiringStatus && <BarLoader width={"100%"} color="#36d7b7" />}
       <CardHeader>
         <CardTitle className="flex justify-between font-bold">

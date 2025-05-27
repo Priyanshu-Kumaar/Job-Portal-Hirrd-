@@ -10,7 +10,7 @@ const MyJobs = () => {
   if (!isLoaded) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <BarLoader width={"100%"} color="#36d7b7" />
+        <BarLoader className="mb-4" width={"100%"} color="#36d7b7" />
       </div>
     );
   }
