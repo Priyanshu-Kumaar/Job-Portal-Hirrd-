@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { BarLoader } from "react-spinners";
 
 const SavedJobs = () => {
-  const { isLoaded } = useUser();
+  const { isLoaded } =    useUser();
 
   const {
     loading: loadingSavedJobs,
