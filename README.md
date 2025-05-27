@@ -1,8 +1,10 @@
 # Hirrd – Job Portal Platform 👨‍💼👩‍💻
 Hirrd is a full-featured job portal website designed to streamline the hiring process for both recruiters and candidates. It offers dedicated views and functionality for both user types, making the platform simple, efficient, and user-friendly.
 
- #Note:-
+ #**Note**:-
+ 
  "Currently fixing deployment issues, but the project works locally. Clone it from GitHub and run [cd vite-project] and then [npm run dev]".
+ 
 # 🔍 Features
 # 👨‍💼 Recruiter Side
 
